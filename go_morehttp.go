@@ -12,7 +12,7 @@ func idxHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "<p>You %s even add %s</p>", "can", "<strong>variables</strong>")
 }
 
-func main() {
+func httpstuff() {
 	http.HandleFunc("/", idxHandler)
 	http.ListenAndServe(":3000", nil)
 }
