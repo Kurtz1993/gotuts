@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func maps() {
 	// The following two lines are equivalent
 	// var grades map[string]float32
 	grades := make(map[string]float32)
